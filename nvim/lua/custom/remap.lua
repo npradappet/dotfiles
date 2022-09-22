@@ -52,3 +52,10 @@ nnoremap ("<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>")
 --
 nnoremap ("k", "gk", { silent = true })
 nnoremap ("j", "gj", { silent = true })
+
+
+------Nerd Tree
+nnoremap ("<leader>n", ":NERDTreeToggle<CR>")
+nnoremap ("<C-n>", ":NERDTree<CR>")
+nnoremap ("<C-t>", ":NERDTreeToggle<CR>")
+nnoremap ("<C-f>", ":NERDTreeFind<CR>")

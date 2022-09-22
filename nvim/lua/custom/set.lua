@@ -47,3 +47,14 @@ vim.g.mapleader = " "
 vim.opt.timeoutlen = 1000 
 vim.opt.shortmess:append({ I = true })
 vim.opt.clipboard = "unnamedplus"
+
+
+-- Run Nerd Tree on start (Need to create separate file for this)
+-- autocmd StdinReadPre * let s:std_in=1
+-- autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+--
+--
+
+-- Telescope Frecency Hotkey
+vim.api.nvim_set_keymap("n", "<leader><leader>", "<Cmd>lua require('telescope').extensions.frecency.frecency({ workspace = 'CWD' })<CR>", {noremap = true, silent = true})
+

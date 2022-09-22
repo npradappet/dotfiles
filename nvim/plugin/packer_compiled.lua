@@ -95,25 +95,70 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["cmp-tabnine"] = {
-    loaded = true,
-    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
-    url = "https://github.com/tzachar/cmp-tabnine"
-  },
   cmp_luasnip = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
+  ["coc-emmet"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-emmet",
+    url = "https://github.com/neoclide/coc-emmet"
+  },
+  ["coc-highlight"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-highlight",
+    url = "https://github.com/neoclide/coc-highlight"
+  },
+  ["coc-lists"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-lists",
+    url = "https://github.com/neoclide/coc-lists"
+  },
+  ["coc-pairs"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-pairs",
+    url = "https://github.com/neoclide/coc-pairs"
+  },
+  ["coc-snippets"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-snippets",
+    url = "https://github.com/neoclide/coc-snippets"
+  },
+  ["coc-yank"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc-yank",
+    url = "https://github.com/neoclide/coc-yank"
+  },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["compe-zsh"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/compe-zsh",
+    url = "https://github.com/tamago324/compe-zsh"
   },
   ["dashboard-nvim"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
   ["git-worktree.nvim"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
     url = "https://github.com/ThePrimeagen/git-worktree.nvim"
+  },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   harpoon = {
     loaded = true,
@@ -129,6 +174,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/lsp_extensions.nvim",
     url = "https://github.com/nvim-lua/lsp_extensions.nvim"
+  },
+  ["lsp_signature.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/lsp_signature.nvim",
+    url = "https://github.com/ray-x/lsp_signature.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -155,11 +205,20 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/preservim/nerdtree"
   },
-  ["nvim-autopairs"] = {
-    config = { "\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0" },
+  ["nerdtree-buffer-ops"] = {
     loaded = true,
-    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
-    url = "https://github.com/windwp/nvim-autopairs"
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nerdtree-buffer-ops",
+    url = "https://github.com/PhilRunninger/nerdtree-buffer-ops"
+  },
+  ["nerdtree-git-plugin"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nerdtree-git-plugin",
+    url = "https://github.com/Xuyuanp/nerdtree-git-plugin"
+  },
+  ["nerdtree-visual-selection"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nerdtree-visual-selection",
+    url = "https://github.com/PhilRunninger/nerdtree-visual-selection"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -171,10 +230,20 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/NvChad/nvim-colorizer.lua"
   },
+  ["nvim-compe"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nvim-compe",
+    url = "https://github.com/hrsh7th/nvim-compe"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/kyazdani42/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
@@ -201,15 +270,56 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["sqlite.lua"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/sqlite.lua",
+    url = "https://github.com/kkharji/sqlite.lua"
+  },
   ["symbols-outline.nvim"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
     url = "https://github.com/simrat39/symbols-outline.nvim"
   },
+  tagbar = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/tagbar",
+    url = "https://github.com/preservim/tagbar"
+  },
+  ["telescope-frecency.nvim"] = {
+    config = { "\27LJ\2\nM\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0B\0\2\1K\0\1\0\rfrecency\19load_extension\14telescope\frequire\0" },
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-frecency.nvim",
+    url = "https://github.com/nvim-telescope/telescope-frecency.nvim"
+  },
+  ["telescope-fzf-native.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
+    url = "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+  },
+  ["telescope-packer.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-packer.nvim",
+    url = "https://github.com/nvim-telescope/telescope-packer.nvim"
+  },
+  ["telescope-smart-history.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-smart-history.nvim",
+    url = "https://github.com/nvim-telescope/telescope-smart-history.nvim"
+  },
+  ["telescope-ui-select.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-ui-select.nvim",
+    url = "https://github.com/nvim-telescope/telescope-ui-select.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "https://github.com/akinsho/toggleterm.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
@@ -226,6 +336,21 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-css-color",
     url = "https://github.com/ap/vim-css-color"
   },
+  ["vim-devicons"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-devicons",
+    url = "https://github.com/ryanoasis/vim-devicons"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-nerdtree-syntax-highlight"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-nerdtree-syntax-highlight",
+    url = "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight"
+  },
   ["vim-terminal"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-terminal",
@@ -240,6 +365,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-textobj-xmlattr",
     url = "https://github.com/whatyouhide/vim-textobj-xmlattr"
+  },
+  ["vim-visual-multi"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-visual-multi",
+    url = "https://github.com/mg979/vim-visual-multi"
   }
 }
 
@@ -248,10 +378,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
 time([[Config for Comment.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n<\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
+-- Config for: telescope-frecency.nvim
+time([[Config for telescope-frecency.nvim]], true)
+try_loadstring("\27LJ\2\nM\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0B\0\2\1K\0\1\0\rfrecency\19load_extension\14telescope\frequire\0", "config", "telescope-frecency.nvim")
+time([[Config for telescope-frecency.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
