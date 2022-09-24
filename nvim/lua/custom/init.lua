@@ -133,3 +133,12 @@ cmp.setup {
 
 
 local lspconfig = require "lspconfig"
+
+local cmp = require("cmp")
+
+cmp.setup.filetype('html', {
+  sources = cmp.config.sources({
+     { name = 'cmp_bootstrap' },
+     -- other sources
+  })
+})

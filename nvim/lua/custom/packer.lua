@@ -172,7 +172,12 @@ return require('packer').startup(function(use)
     -- use("tzachar/cmp-tabnine", { run = "./install.sh" })
     use("L3MON4D3/LuaSnip")
     use("saadparwaiz1/cmp_luasnip")
-    
+
+    use {
+      "rambhosale/cmp-bootstrap.nvim",
+      after = "nvim-cmp",
+      event = "InsertEnter",
+    }
   end)
 
 
