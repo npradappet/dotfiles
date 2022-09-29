@@ -150,6 +150,7 @@ return require('packer').startup(function(use)
     use("nvim-telescope/telescope-packer.nvim")
     use("nvim-telescope/telescope-smart-history.nvim")
     use("nvim-telescope/telescope-ui-select.nvim")
+    use("nvim-telescope/telescope-file-browser.nvim")
     use {
       "nvim-telescope/telescope-frecency.nvim",
       config = function()
@@ -180,6 +181,11 @@ return require('packer').startup(function(use)
       after = "nvim-cmp",
       event = "InsertEnter",
     }
+  
+
+     use("fladson/vim-kitty")
+     use("powerline/fonts")
   end)
+
 
 

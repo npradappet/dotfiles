@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
+  fonts = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/fonts",
+    url = "https://github.com/powerline/fonts"
+  },
   ["fzf.vim"] = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/fzf.vim",
@@ -294,6 +299,11 @@ _G.packer_plugins = {
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/tagbar",
     url = "https://github.com/preservim/tagbar"
   },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+  },
   ["telescope-frecency.nvim"] = {
     config = { "\27LJ\2\nM\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0'\2\3\0B\0\2\1K\0\1\0\rfrecency\19load_extension\14telescope\frequire\0" },
     loaded = true,
@@ -354,6 +364,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-kitty"] = {
+    loaded = true,
+    path = "/Users/npradappet/.local/share/nvim/site/pack/packer/start/vim-kitty",
+    url = "https://github.com/fladson/vim-kitty"
   },
   ["vim-nerdtree-syntax-highlight"] = {
     loaded = true,
